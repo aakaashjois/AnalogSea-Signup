@@ -1,0 +1,101 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 50px;
+    background-color: dodgerblue;
+}
+
+.logo {
+    display: block;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+form>h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 25px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+form label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form input {
+    display: block;
+    width: 320px;
+    height: 55px;
+    font-size: 15px;
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form button {
+    display: block;
+    width: 320px;
+    height: 55px;
+    border: 2px solid seagreen;
+    background-color: seagreen;
+    border-radius: 2px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.forgot-password {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: gray;
+}
+
+.log-in * {
+    color: white;
+    padding: 10px;
+}
+
+.log-in {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
